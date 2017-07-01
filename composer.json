@@ -1,0 +1,28 @@
+{
+  "name": "imagine10255/file-manage",
+  "description": "File upload management tool, with JQueryFileUpload",
+  "keywords": [
+    "laravel",
+    "file",
+    "jquery-file-upload"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "imagine10255",
+      "email": "imagine10255@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "illuminate/contracts": "^5.1",
+    "illuminate/database": "^5.1",
+    "illuminate/support": "^5.1",
+    "intervention/image": "^2.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Imagine10255\\FileManage\\": "src/"
+    }
+  }
+}
